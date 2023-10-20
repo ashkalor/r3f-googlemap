@@ -5,7 +5,7 @@ specifiers:
   '@googlemaps/three': ^4.0.6
   '@react-three/fiber': ^8.14.6
   '@types/google.maps': ^3.54.4
-  '@types/react': ^18.2.15
+  '@types/react': ^18.2.30
   '@types/react-dom': ^18.2.7
   '@types/three': ^0.157.2
   '@typescript-eslint/eslint-plugin': ^6.0.0
@@ -27,13 +27,13 @@ dependencies:
   '@googlemaps/react-wrapper': 1.1.35_react@18.2.0
   '@googlemaps/three': 4.0.6_three@0.157.0
   '@react-three/fiber': 8.14.6_qv4agimbwylctiedd2h6apgcgu
-  '@types/google.maps': 3.54.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   three: 0.157.0
 
 devDependencies:
-  '@types/react': 18.2.29
+  '@types/google.maps': 3.54.4
+  '@types/react': 18.2.30
   '@types/react-dom': 18.2.14
   '@types/three': 0.157.2
   '@typescript-eslint/eslint-plugin': 6.8.0_g5tgkvya3z5bpn5xlbld6exflu
@@ -560,7 +560,7 @@ packages:
 
   /@types/google.maps/3.54.4:
     resolution: {integrity: sha512-cUX4SOo5eN1Fotpcm6cH3//F8/UgXrs6/3OUkLYDkAizGo0AaecjBGCJMmY/n5XcMKogRFrqN/69JNKwCjBskg==}
-    dev: false
+    dev: true
 
   /@types/json-schema/7.0.14:
     resolution: {integrity: sha512-U3PUjAudAdJBeC2pgN8uTIKgxrb4nlDF3SF0++EldXQvQBGkpFZMSnwQiIoDU77tv45VgNkl/L4ouD+rEomujw==}
@@ -572,23 +572,23 @@ packages:
   /@types/react-dom/18.2.14:
     resolution: {integrity: sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==}
     dependencies:
-      '@types/react': 18.2.29
+      '@types/react': 18.2.30
     dev: true
 
   /@types/react-reconciler/0.26.7:
     resolution: {integrity: sha512-mBDYl8x+oyPX/VBb3E638N0B7xG+SPk/EAMcVPeexqus/5aTpTphQi0curhhshOqRrc9t6OPoJfEUkbymse/lQ==}
     dependencies:
-      '@types/react': 18.2.29
+      '@types/react': 18.2.30
     dev: false
 
   /@types/react-reconciler/0.28.6:
     resolution: {integrity: sha512-NlilRDg7yjtFX568NA046OiHWbz5EKM1q5FSXi2GP7WKyU+Vem4NJQcG+ZaMiWotyPiYqkIb6NKJkFuplbchAA==}
     dependencies:
-      '@types/react': 18.2.29
+      '@types/react': 18.2.30
     dev: false
 
-  /@types/react/18.2.29:
-    resolution: {integrity: sha512-Z+ZrIRocWtdD70j45izShRwDuiB4JZqDegqMFW/I8aG5DxxLKOzVNoq62UIO82v9bdgi+DO1jvsb9sTEZUSm+Q==}
+  /@types/react/18.2.30:
+    resolution: {integrity: sha512-OfqdJnDsSo4UNw0bqAjFCuBpLYQM7wvZidz0hVxHRjrEkzRlvZL1pJVyOSY55HMiKvRNEo9DUBRuEl7FNlJ/Vg==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5

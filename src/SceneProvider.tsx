@@ -11,9 +11,8 @@ const SceneProvider = ({
   useEffect(() => {
     if (overlay && scene) {
       overlay.scene.add(scene);
-      overlay.requestRedraw();
     }
-    () => {
+    return () => {
       if (overlay && scene) {
         overlay.scene.remove(scene);
       }
